@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakty</title>
+    <link rel="stylesheet" href="kontaktyStyles.css">
+</head>
+<body>
+<div class="container">
+    <div style="text-align:center">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="row" style="display: flex;
+    justify-content: center;">
+        <div class="column">
+            <form action="/action_page.php">
+                <h2 for="fname">First Name</h2>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <h2 for="lname">Last Name</h2>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <h2 for="country">Country</h2>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <h2 for="subject">Subject</h2>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
